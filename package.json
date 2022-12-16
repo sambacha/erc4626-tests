@@ -1,0 +1,25 @@
+{
+  "name": "erc4626-tests",
+  "version": "1.0.0",
+  "description": "Foundry (dapptools-style) property-based tests for [ERC4626] standard conformance.",
+  "main": "index.js",
+  "scripts": {
+  "fmt": "npx prettier --config prettier.config.js --write '**/*.sol'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/erc4626-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambacha/erc4626-tests/issues"
+  },
+  "homepage": "https://github.com/sambacha/erc4626-tests#readme",
+  "devDependencies": {
+    "prettier": "^2.8.1",
+    "prettier-config-solidity": "^1.8.0",
+    "prettier-plugin-solidity": "^1.0.0-dev.22"
+  }
+}

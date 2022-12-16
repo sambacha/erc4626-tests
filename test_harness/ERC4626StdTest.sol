@@ -3,8 +3,8 @@ pragma solidity >=0.8.0 <0.9.0;
 
 import "erc4626-tests/ERC4626.test.sol";
 
-import {MockERC20} from "./utils/mocks/MockERC20.sol";
-import {MockERC4626} from "./utils/mocks/MockERC4626.sol";
+import { MockERC20 } from "./utils/mocks/MockERC20.sol";
+import { MockERC4626 } from "./utils/mocks/MockERC4626.sol";
 
 contract ERC4626StdTest is ERC4626Test {
     function setUp() public override {
